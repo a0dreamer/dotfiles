@@ -62,6 +62,10 @@ setxkbmap -layout us,ara -option grp:caps_toggle &
 # Monitor
 # xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1 --off --output DP-2 --off --output DP-3 --off --output DP-4 --off
 
+# Stopping screen power saving
+xset -dpms
+xset s off
+
 # Auto Locker after 10 min
 xautolock -time 10 -notify 30 -notifier "notify-send 'Screen will lock in 30 seconds'" -locker slock &
 
