@@ -34,7 +34,7 @@ dunst >/dev/null 2>&1 &
 ln -sf ~/.cache/wal/zathurarc ~/.config/zathura/zathurarc
 
 # Discord
-ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/Vencord/themes/pywal-vencord.theme.css
+ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/vesktop/themes/pywal-vencord.theme.css
 
 # Calibre
 "$HOME/scripts/calibre.sh"
