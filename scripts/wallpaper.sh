@@ -24,7 +24,7 @@ if [ -n "$WALLPAPER" ]; then
     (cd "$HOME/app/startpage" && ./update-startpage.sh)
 
     ln -sf ~/.cache/wal/zathurarc ~/.config/zathura/zathurarc
-
+    ln -s $HOME/.cache/wal/colors-discord.css $HOME/.config/Vencord/themes/pywal-vencord.theme.css
 	"$HOME/scripts/calibre.sh"
 
 	pywalfox update
